@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Model and dataset caches
+.cache/
+huggingface/
+.cache/huggingface/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local/private review material
+results/answer_quality_private_key.csv
+results/answer_quality_review_completed.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

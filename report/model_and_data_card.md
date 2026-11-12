@@ -15,10 +15,10 @@
 Lexical sparse retrieval using Unicode-aware word tokenization. It is a non-neural baseline and may be sensitive to vocabulary/script mismatch.
 
 ### multilingual-e5-small
-Model ID: `intfloat/multilingual-e5-small`. Sentence-transformers interface; query and passage prefixes are used as expected by E5. Embeddings are normalized and compared using dot product. Model card and licence should be checked at the model repository before redistribution.
+Model ID: `intfloat/multilingual-e5-small`. Sentence-transformers interface; query and passage prefixes are used as expected by E5. Embeddings are normalized and compared using dot product.
 
 ### multilingual MiniLM
-Model ID: `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`. Compact multilingual sentence embedding baseline. Embeddings are normalized and compared using dot product. Model card and licence should be checked at the model repository before redistribution.
+Model ID: `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`. Compact multilingual sentence embedding baseline. Embeddings are normalized and compared using dot product. 
 
 ### Hybrid RRF
 Combines BM25 and E5 rankings using Reciprocal Rank Fusion with `k=60`. It does not fine-tune either model.
@@ -35,7 +35,6 @@ Recall@1/5/10, MRR, English-minus-language monolingual Recall@5 gaps, bootstrap 
 - Cross-language evaluation depends on verified parallel row and passage-group alignment.
 - Model performance and latency depend on hardware, library versions and model revisions.
 - Human review is small and subjective; reviewer count and protocol must be disclosed.
-- The review answer key must be kept separate from the reviewer-facing sheet.
 
-## Reporting checklist
-Record the exact row counts, unique-passage counts, model IDs, package versions, hardware, run time, reviewer count and actual results. Do not fill result fields with estimates.
+
+
